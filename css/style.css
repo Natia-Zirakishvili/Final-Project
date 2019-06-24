@@ -1,0 +1,176 @@
+body {
+	background-color: #FFFAF0;
+}
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+
+.logo {
+	width: 135px;
+	margin-left: 60px;
+}
+
+.header {
+	background-color: white;
+	width: 100%;
+	height: 100px;
+	margin: 0 auto;
+	position: fixed;
+	z-index: 100;
+}
+
+.header a {
+	color: #D2B48C;
+	margin-right: 65px;
+	font-family: "BPG Irubaqidze", sans-serif;
+	font-size: 25px;
+}
+
+
+.main {
+	padding-top: 100px;
+	margin-bottom: 50px;
+}
+.main-img {
+	max-width: 1170px;
+	width: 100%;
+
+}
+.dmain-img {
+	position: relative;
+}
+.plan {
+	position: absolute;
+	top: 150px;
+ 	left:  100px;
+ 	color: #FFE4C4;
+}
+.plan h3 {
+	font-family: "ALK Sanet", sans-serif;
+
+}
+.button {
+	position: absolute;
+	top: 230px;
+ 	left:  210px;
+}
+
+.section2 {
+	background-image: url(https://cdn.inspirationhut.net/wp-content/uploads/2013/05/201.png);
+}
+.section2 h2 {
+	padding-top: 20px;
+	color: #D2B48C;
+	font-family: "BPG Irubaqidze", sans-serif;
+}
+.aboutus1 {
+	padding-top: 70px;
+	justify-content: space-around;
+}
+.text {
+	width: 500px;
+	font-family: "BPG Arial", sans-serif;
+}
+
+.services {
+	font-family: "ALK Sanet", sans-serif;
+	margin-top: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+
+.serv-ul {
+	padding-top: 20px;
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.gallery h2 {
+	color: #D2B48C;
+	margin: 50px 0;
+	font-family: "BPG Irubaqidze", sans-serif;
+}
+
+.gallery img {
+	display: block;
+	width: 100%;
+}
+
+.grid1 {
+	max-width: 550px;
+	width: 100%;
+}
+
+
+.grid2 {
+	margin-top: 50px;
+	max-width: 360px;
+	width: 100%;
+	height: 500px;
+}
+
+
+.grid3 {
+	max-width: 360px;
+	width: 100%;
+
+}
+
+.grid3 img {
+	height:467px;
+}
+
+
+.grid4 {
+	max-width: 700px;
+	width: 100%;
+}
+
+.contact {
+	margin-top: 70px;
+}
+
+.contact h2 {
+	margin-top: 30px;
+	color: #D2B48C;
+	font-family: "BPG Irubaqidze", sans-serif;
+}
+ .map {
+ 	justify-content: center;
+ }
+
+ .map iframe {
+ 	margin-top: 30px;
+ 	margin-right: 50px;
+ }
+
+ .fb {
+ 	width: 50px;
+ 	padding-top: 30px;
+ 	display: block;
+ 	margin: 0 auto;
+ }
+
+footer {
+	background-color: #fff;
+}
+footer p {
+	margin-bottom: 0px;
+	font-size: 12px; 
+	text-align: right;
+}
