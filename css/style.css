@@ -31,6 +31,9 @@ body {
 	margin: 0 auto;
 	position: fixed;
 	z-index: 100;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .header a {
@@ -40,6 +43,9 @@ body {
 	font-size: 25px;
 }
 
+.bars {
+	display: none;
+}
 
 .main {
 	padding-top: 100px;
@@ -82,7 +88,8 @@ body {
 	justify-content: space-around;
 }
 .text {
-	width: 500px;
+	max-width: 500px;
+	width: 100%;
 	font-family: "BPG Arial", sans-serif;
 }
 
@@ -148,6 +155,7 @@ body {
 
 .contact {
 	margin-top: 70px;
+	padding-bottom: 50px;
 }
 
 .contact h2 {
@@ -162,7 +170,6 @@ body {
  .map iframe {
  	margin-top: 30px;
  	margin-right: 50px;
- 	padding-bottom: 50px;
  }
 
  .fb {
@@ -180,6 +187,8 @@ footer p {
 	font-size: 12px; 
 	text-align: right;
 }
+
+/*index1*/
 
 .sign {
 	margin-bottom: 100px;
@@ -217,4 +226,80 @@ input[type=submit] {
 	cursor: pointer;
 }
 
+@media (max-width: 850px) {
+	.flex {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	
+	.nav-ul{
+		display: none;
+	}
+
+	.logo {
+		margin-left: 15px;
+	}
+		
+	.bars {
+		display: inline-block;
+		font-size: 30px;
+		margin-right: 50px;
+		color: #D2B48C;
+	}
+
+	.text {
+		margin-top: 30px;
+	}
+	
+	.grid1{
+		margin-bottom: 20px;
+	}
+
+	.grid3 {
+		margin-bottom: 20px;
+	}
+
+	.contactus {
+		margin-top: 20px;
+	}
+
+}
+
+	@media (max-width: 600px) {
+
+		.plan {
+			left: 50px;
+		}
+
+		.button {
+			left: 50px;
+		}
+
+
+		.container {
+			margin-left: 5px;
+		}
+
+		.map iframe {
+			max-width: 450px;
+			width: 100%;
+			padding-left: 20px;
+
+		}
+
+}
+
+@media (max-width: 500px) {
+	.plan {
+		top: 105px;
+		left: 25px;
+	}
+
+	.button {
+		top: 190px;
+		left: 25px;
+	}
+}
 
