@@ -86,6 +86,11 @@ body {
 	font-family: "BPG Arial", sans-serif;
 }
 
+.text2{
+	color: #CD853F;
+	font-size: 20px;
+}
+
 .services {
 	font-family: "ALK Sanet", sans-serif;
 	margin-top: 50px;
@@ -157,6 +162,7 @@ body {
  .map iframe {
  	margin-top: 30px;
  	margin-right: 50px;
+ 	padding-bottom: 50px;
  }
 
  .fb {
@@ -174,3 +180,41 @@ footer p {
 	font-size: 12px; 
 	text-align: right;
 }
+
+.sign {
+	margin-bottom: 100px;
+
+}
+
+.sign h3 {
+	padding-top: 120px;
+	text-align: center;
+	margin-bottom: 50px;
+	color: grey;
+}
+.form {
+	margin: 0 auto;
+	text-align: center;
+}
+.form label {
+	display: block;
+	margin-top: 10px;
+	font-size: 30px;
+	color: #D2B48C;
+	font-family: "BPG Irubaqidze", sans-serif;
+}
+
+.form input {
+	padding: 12px 20px;
+ 	margin: 8px 0;
+  	border: 1px solid #ccc;
+}
+
+input[type=submit] {
+	display: block;
+	text-align: center;
+	margin: 20px auto;
+	cursor: pointer;
+}
+
+
