@@ -183,7 +183,12 @@ body {
 
  .map iframe {
  	margin-top: 30px;
- 	margin-right: 50px;
+ 	margin-right: 20px;
+ }
+
+ .number {
+ 	text-align: center;
+ 	margin-top: 10px;
  }
 
  .fb {
@@ -195,10 +200,11 @@ body {
 
 footer {
 	background-color: #fff;
+	width: 100%;
 }
 footer p {
 	margin-bottom: 0px;
-	margin-right: 10px;
+	padding-right: 10px;
 	font-size: 12px; 
 	text-align: right;
 }
