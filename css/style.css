@@ -120,10 +120,10 @@ body {
 
 .services {
 	font-family: "ALK Sanet", sans-serif;
-	margin-top: 50px;
 	text-align: center;
 	margin-bottom: 20px;
 	margin: 0 auto;
+	margin-top: 50px;
 
 }
 
@@ -370,4 +370,3 @@ input[type=submit] {
 		left: 20px;
 	}
 }
-
