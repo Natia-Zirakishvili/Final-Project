@@ -116,6 +116,7 @@ body {
 .text2{
 	color: #CD853F;
 	font-size: 20px;
+	margin-bottom: 50px;
 }
 
 .services {
@@ -123,7 +124,6 @@ body {
 	text-align: center;
 	margin-bottom: 20px;
 	margin: 0 auto;
-	margin-top: 50px;
 
 }
 
